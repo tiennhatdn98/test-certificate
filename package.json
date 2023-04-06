@@ -1,0 +1,26 @@
+{
+  "name": "passport-clientcert-fe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "HTTPS=true SSL_CRT_FILE=./.cert/ca.crt SSL_KEY_FILE=./.cert/ca.key next dev",
+    "build": "next build",
+    "start": "HTTPS=true SSL_CRT_FILE=./.cert/ca.crt SSL_KEY_FILE=./.cert/ca.key next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.33",
+    "@types/react-dom": "18.0.11",
+    "arraybuffer-to-buffer": "0.0.7",
+    "axios": "^1.3.4",
+    "buffer": "^6.0.3",
+    "buffer-reader": "^0.1.0",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.0.3"
+  }
+}
